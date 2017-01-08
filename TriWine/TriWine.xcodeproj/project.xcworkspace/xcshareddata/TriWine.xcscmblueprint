@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "04B022C177D43189B54530E245F52869E7E2C9A3",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "EB3E639CF5E36BEC9E7909FB1389280A49D3D61F" : 9223372036854775807,
+    "04B022C177D43189B54530E245F52869E7E2C9A3" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "AD709C65-C5EF-413A-9BD1-CA0CBF59DE7F",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "EB3E639CF5E36BEC9E7909FB1389280A49D3D61F" : "",
+    "04B022C177D43189B54530E245F52869E7E2C9A3" : "TriWine\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "TriWine",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "TriWine\/TriWine.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/cordhernandez\/TriWine.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "04B022C177D43189B54530E245F52869E7E2C9A3"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/cordhernandez\/IOSI_SM_1.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "EB3E639CF5E36BEC9E7909FB1389280A49D3D61F"
+    }
+  ]
+}

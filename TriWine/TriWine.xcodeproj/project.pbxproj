@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3275806C1E2205D100E2915A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3275806B1E2205D100E2915A /* AppDelegate.swift */; };
+		3275806E1E2205D100E2915A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3275806D1E2205D100E2915A /* ViewController.swift */; };
+		327580711E2205D100E2915A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3275806F1E2205D100E2915A /* Main.storyboard */; };
+		327580731E2205D100E2915A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 327580721E2205D100E2915A /* Assets.xcassets */; };
+		327580761E2205D100E2915A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 327580741E2205D100E2915A /* LaunchScreen.storyboard */; };
+		327580811E2205D100E2915A /* TriWineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 327580801E2205D100E2915A /* TriWineTests.swift */; };
+		3275808C1E2205D100E2915A /* TriWineUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3275808B1E2205D100E2915A /* TriWineUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3275807D1E2205D100E2915A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 327580601E2205D100E2915A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 327580671E2205D100E2915A;
+			remoteInfo = TriWine;
+		};
+		327580881E2205D100E2915A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 327580601E2205D100E2915A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 327580671E2205D100E2915A;
+			remoteInfo = TriWine;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		327580681E2205D100E2915A /* TriWine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TriWine.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3275806B1E2205D100E2915A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3275806D1E2205D100E2915A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		327580701E2205D100E2915A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		327580721E2205D100E2915A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		327580751E2205D100E2915A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		327580771E2205D100E2915A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3275807C1E2205D100E2915A /* TriWineTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TriWineTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		327580801E2205D100E2915A /* TriWineTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriWineTests.swift; sourceTree = "<group>"; };
+		327580821E2205D100E2915A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		327580871E2205D100E2915A /* TriWineUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TriWineUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3275808B1E2205D100E2915A /* TriWineUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriWineUITests.swift; sourceTree = "<group>"; };
+		3275808D1E2205D100E2915A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		327580651E2205D100E2915A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		327580791E2205D100E2915A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		327580841E2205D100E2915A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3275805F1E2205D100E2915A = {
+			isa = PBXGroup;
+			children = (
+				3275806A1E2205D100E2915A /* TriWine */,
+				3275807F1E2205D100E2915A /* TriWineTests */,
+				3275808A1E2205D100E2915A /* TriWineUITests */,
+				327580691E2205D100E2915A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		327580691E2205D100E2915A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				327580681E2205D100E2915A /* TriWine.app */,
+				3275807C1E2205D100E2915A /* TriWineTests.xctest */,
+				327580871E2205D100E2915A /* TriWineUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3275806A1E2205D100E2915A /* TriWine */ = {
+			isa = PBXGroup;
+			children = (
+				3275806B1E2205D100E2915A /* AppDelegate.swift */,
+				3275806D1E2205D100E2915A /* ViewController.swift */,
+				3275806F1E2205D100E2915A /* Main.storyboard */,
+				327580721E2205D100E2915A /* Assets.xcassets */,
+				327580741E2205D100E2915A /* LaunchScreen.storyboard */,
+				327580771E2205D100E2915A /* Info.plist */,
+			);
+			path = TriWine;
+			sourceTree = "<group>";
+		};
+		3275807F1E2205D100E2915A /* TriWineTests */ = {
+			isa = PBXGroup;
+			children = (
+				327580801E2205D100E2915A /* TriWineTests.swift */,
+				327580821E2205D100E2915A /* Info.plist */,
+			);
+			path = TriWineTests;
+			sourceTree = "<group>";
+		};
+		3275808A1E2205D100E2915A /* TriWineUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3275808B1E2205D100E2915A /* TriWineUITests.swift */,
+				3275808D1E2205D100E2915A /* Info.plist */,
+			);
+			path = TriWineUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		327580671E2205D100E2915A /* TriWine */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 327580901E2205D100E2915A /* Build configuration list for PBXNativeTarget "TriWine" */;
+			buildPhases = (
+				327580641E2205D100E2915A /* Sources */,
+				327580651E2205D100E2915A /* Frameworks */,
+				327580661E2205D100E2915A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TriWine;
+			productName = TriWine;
+			productReference = 327580681E2205D100E2915A /* TriWine.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3275807B1E2205D100E2915A /* TriWineTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 327580931E2205D100E2915A /* Build configuration list for PBXNativeTarget "TriWineTests" */;
+			buildPhases = (
+				327580781E2205D100E2915A /* Sources */,
+				327580791E2205D100E2915A /* Frameworks */,
+				3275807A1E2205D100E2915A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3275807E1E2205D100E2915A /* PBXTargetDependency */,
+			);
+			name = TriWineTests;
+			productName = TriWineTests;
+			productReference = 3275807C1E2205D100E2915A /* TriWineTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		327580861E2205D100E2915A /* TriWineUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 327580961E2205D100E2915A /* Build configuration list for PBXNativeTarget "TriWineUITests" */;
+			buildPhases = (
+				327580831E2205D100E2915A /* Sources */,
+				327580841E2205D100E2915A /* Frameworks */,
+				327580851E2205D100E2915A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				327580891E2205D100E2915A /* PBXTargetDependency */,
+			);
+			name = TriWineUITests;
+			productName = TriWineUITests;
+			productReference = 327580871E2205D100E2915A /* TriWineUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		327580601E2205D100E2915A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Dero;
+				TargetAttributes = {
+					327580671E2205D100E2915A = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 5E82HJH2N5;
+						ProvisioningStyle = Automatic;
+					};
+					3275807B1E2205D100E2915A = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 268HJM5ELZ;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 327580671E2205D100E2915A;
+					};
+					327580861E2205D100E2915A = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 268HJM5ELZ;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 327580671E2205D100E2915A;
+					};
+				};
+			};
+			buildConfigurationList = 327580631E2205D100E2915A /* Build configuration list for PBXProject "TriWine" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3275805F1E2205D100E2915A;
+			productRefGroup = 327580691E2205D100E2915A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				327580671E2205D100E2915A /* TriWine */,
+				3275807B1E2205D100E2915A /* TriWineTests */,
+				327580861E2205D100E2915A /* TriWineUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		327580661E2205D100E2915A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				327580761E2205D100E2915A /* LaunchScreen.storyboard in Resources */,
+				327580731E2205D100E2915A /* Assets.xcassets in Resources */,
+				327580711E2205D100E2915A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3275807A1E2205D100E2915A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		327580851E2205D100E2915A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		327580641E2205D100E2915A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3275806E1E2205D100E2915A /* ViewController.swift in Sources */,
+				3275806C1E2205D100E2915A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		327580781E2205D100E2915A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				327580811E2205D100E2915A /* TriWineTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		327580831E2205D100E2915A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3275808C1E2205D100E2915A /* TriWineUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3275807E1E2205D100E2915A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 327580671E2205D100E2915A /* TriWine */;
+			targetProxy = 3275807D1E2205D100E2915A /* PBXContainerItemProxy */;
+		};
+		327580891E2205D100E2915A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 327580671E2205D100E2915A /* TriWine */;
+			targetProxy = 327580881E2205D100E2915A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3275806F1E2205D100E2915A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				327580701E2205D100E2915A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		327580741E2205D100E2915A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				327580751E2205D100E2915A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3275808E1E2205D100E2915A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3275808F1E2205D100E2915A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		327580911E2205D100E2915A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5E82HJH2N5;
+				INFOPLIST_FILE = TriWine/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = RedRoma.TriWine;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		327580921E2205D100E2915A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5E82HJH2N5;
+				INFOPLIST_FILE = TriWine/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = RedRoma.TriWine;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		327580941E2205D100E2915A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 268HJM5ELZ;
+				INFOPLIST_FILE = TriWineTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = RedRoma.TriWineTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TriWine.app/TriWine";
+			};
+			name = Debug;
+		};
+		327580951E2205D100E2915A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 268HJM5ELZ;
+				INFOPLIST_FILE = TriWineTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = RedRoma.TriWineTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TriWine.app/TriWine";
+			};
+			name = Release;
+		};
+		327580971E2205D100E2915A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 268HJM5ELZ;
+				INFOPLIST_FILE = TriWineUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = RedRoma.TriWineUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = TriWine;
+			};
+			name = Debug;
+		};
+		327580981E2205D100E2915A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 268HJM5ELZ;
+				INFOPLIST_FILE = TriWineUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = RedRoma.TriWineUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = TriWine;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		327580631E2205D100E2915A /* Build configuration list for PBXProject "TriWine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3275808E1E2205D100E2915A /* Debug */,
+				3275808F1E2205D100E2915A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		327580901E2205D100E2915A /* Build configuration list for PBXNativeTarget "TriWine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				327580911E2205D100E2915A /* Debug */,
+				327580921E2205D100E2915A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		327580931E2205D100E2915A /* Build configuration list for PBXNativeTarget "TriWineTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				327580941E2205D100E2915A /* Debug */,
+				327580951E2205D100E2915A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		327580961E2205D100E2915A /* Build configuration list for PBXNativeTarget "TriWineUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				327580971E2205D100E2915A /* Debug */,
+				327580981E2205D100E2915A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 327580601E2205D100E2915A /* Project object */;
+}
