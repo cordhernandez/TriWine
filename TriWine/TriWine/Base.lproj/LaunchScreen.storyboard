@@ -1,7 +1,11 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11134" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16C67" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11106"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -16,12 +20,28 @@
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Icon-Original" translatesAutoresizingMaskIntoConstraints="NO" id="3Lr-oa-2jh">
+                                <rect key="frame" x="0.0" y="127" width="375" height="412"/>
+                                <color key="tintColor" red="0.95571154356002808" green="0.14994600415229797" blue="0.15049198269844055" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.95571154359999999" green="0.14994600420000001" blue="0.1504919827" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="3Lr-oa-2jh" firstAttribute="width" secondItem="Ze5-6b-2t3" secondAttribute="width" id="BmM-yA-5g8"/>
+                            <constraint firstItem="3Lr-oa-2jh" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="Brk-FT-Hxk"/>
+                            <constraint firstItem="3Lr-oa-2jh" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="Gsf-Qa-d1P"/>
+                            <constraint firstItem="3Lr-oa-2jh" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="107" id="ewv-eA-muf"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="3Lr-oa-2jh" secondAttribute="bottom" constant="128" id="h59-rS-Ly5"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="53" y="375"/>
+            <point key="canvasLocation" x="52" y="374.66266866566718"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Icon-Original" width="500" height="500"/>
+    </resources>
 </document>
